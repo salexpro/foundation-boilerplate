@@ -23,7 +23,6 @@
   ],
   "private": true,
   "resolutions": {
-    "what-input": "^5.0.1",
     "foundation-sites": "^6.3.1",
     "jquery": "^3.2.0"
   }
