@@ -1,0 +1,10 @@
+block vars
+doctype html
+html(lang="ru")
+    include includes/_head
+    body
+        main.off-canvas-content.wrap(data-off-canvas-content)
+            include includes/_header
+            block content
+            include includes/_footer
+        include includes/_offcanvas
