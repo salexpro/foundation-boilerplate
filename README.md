@@ -21,4 +21,4 @@ npm install
 
 ## Run
 Just press "Build project" button in Codekit app.  
-Also, this plate has the bash script that creates docs folder, copies to it builded app and adds fastnav.js for simple navigation between pages.
+Also, this plate has the bash script that creates docs folder, copies to it built an app and add fastnav.js for simple navigation between pages.
