@@ -1,0 +1,7 @@
+mixin icon(name, width, height, color)
+    svg(xmlns='http://www.w3.org/2000/svg' width=width height=height)
+        use(fill='#' + color, xlink:href='#' + name)
+
+svg(style="display:none")
+    defs
+        

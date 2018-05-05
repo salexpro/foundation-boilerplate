@@ -1,10 +1,16 @@
 block const
+
+//- Components
+//- include components/_icons
+include components/_menu
+
 doctype html
 html(lang="ru")
-    include components/_head
+    include sections/_head
     body
         main.off-canvas-content.wrap(data-off-canvas-content)
-            include components/_header
+            include sections/_header
             block content
-            include components/_footer
-        include components/_offcanvas
+            include sections/_footer
+        //- include components/_offcanvas
+        script(src="./js/app.min.js")

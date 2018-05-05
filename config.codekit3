@@ -113,6 +113,24 @@
 		"oO": 0,
 		"oS": 0
 		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/build\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/src\/js\/app.js": {
 		"ft": 64,
 		"ma": 1,
@@ -133,30 +151,21 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/pug\/components\/_footer.pug": {
+	"\/src\/pug\/components\/_icons.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_footer.html",
+		"oAP": "\/build\/_icons.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_head.pug": {
+	"\/src\/pug\/components\/_menu.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_head.html",
-		"oF": 0,
-		"oS": 1
-		},
-	"\/src\/pug\/components\/_header.pug": {
-		"cB": 1,
-		"cOD": 0,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/_header.html",
+		"oAP": "\/build\/_menu.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -186,6 +195,33 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/src\/pug\/sections\/_footer.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_footer.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/src\/pug\/sections\/_head.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_head.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/src\/pug\/sections\/_header.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_header.html",
+		"oF": 0,
+		"oS": 1
 		},
 	"\/src\/scss\/_settings.scss": {
 		"aP": 1,
@@ -222,6 +258,32 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/scss\/css\/_base.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_button.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_button.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_fonts.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_fonts.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
