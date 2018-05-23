@@ -1,13 +1,13 @@
 block const
 
 //- Components
-//- include components/_icons
 include components/_menu
 
 doctype html
 html(lang="ru")
     include sections/_head
     body
+        //- include components/_icons
         main.off-canvas-content.wrap(data-off-canvas-content)
             include sections/_header
             block content

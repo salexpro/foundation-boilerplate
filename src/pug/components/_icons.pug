@@ -1,5 +1,5 @@
-mixin icon(name, width, height, color)
-    svg(xmlns='http://www.w3.org/2000/svg' width=width height=height)
+mixin icon(name, size, color, viewbox)
+    svg(xmlns='http://www.w3.org/2000/svg' width=size[0] height=size[1] viewbox=viewbox ? "0 0 " + viewbox[0] + " " + viewbox[1] : "")
         use(fill='#' + color, xlink:href='#' + name)
 
 svg(style="display:none")
