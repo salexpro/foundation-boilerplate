@@ -55,8 +55,11 @@
 // @include motion-ui-animations;
 
 // Components
-@import 'components/_fonts';
-@import 'components/_base';
-@import 'components/_button';
+@import 'components/fonts';
+@import 'components/base';
+@import 'components/button';
+// @import 'components/offcanvas';
 
 // Sections
+@import 'sections/header';
+@import 'sections/footer';

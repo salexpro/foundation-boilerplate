@@ -1,9 +1,8 @@
 -
     const title = 'Project';
 block const
-
 //- Components
-include components/_menu
+//- include components/_menu
 
 doctype html
 html(lang="ru")
@@ -13,6 +12,8 @@ html(lang="ru")
         main.off-canvas-content.wrap(data-off-canvas-content)
             include sections/_header
             block content
-            include sections/_footer
+                include sections/_footer
+            //- include components/_popup
         //- include components/_offcanvas
-        script(src="./js/app.min.js")
+        block js
+            script(src="./js/app.min.js")
