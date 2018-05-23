@@ -8,7 +8,7 @@
 		},
 	{
 		"name": "Demo mode with Github Pages",
-		"scriptSourceString": "rm -rf docs\/\ncp -rf build\/ docs\/\ncat docs\/js\/lib\/fastnav.min.js >> docs\/js\/app.min.js\nrm build.zip\nzip -r build.zip build\/",
+		"scriptSourceString": "rm -rf docs\/\ncp -rf build\/ docs\/\nrm docs\/.gitignore\ncat docs\/js\/components\/fastnav.min.js >> docs\/js\/app.min.js\nzip -r build.zip build\/",
 		"scriptType": 1,
 		"scriptUUIDString": "26AE3F7B-AC2D-4F34-BF67-57F311D0110B",
 		"stepType": 2,
@@ -50,6 +50,12 @@
 		"oA": 1,
 		"oAP": "\/build\/build.zip",
 		"oF": 1
+		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/docs",
+		"oF": 0
 		},
 	"\/node_modules": {
 		"ft": 65536,
@@ -131,6 +137,20 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/src\/assets\/fonts\/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/.gitkeep",
+		"oF": 0
+		},
+	"\/src\/assets\/img\/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/.gitkeep",
+		"oF": 0
+		},
 	"\/src\/js\/app.js": {
 		"ft": 64,
 		"ma": 1,
@@ -175,6 +195,15 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_offcanvas.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/src\/pug\/components\/_popup.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_popup.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -287,6 +316,58 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/src\/scss\/components\/_offcanvas.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_offcanvas.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_popup.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_popup.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_footer.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_footer.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_header.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_header.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -299,7 +380,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 544444164
+	"lastBuiltDate": 548730532
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
