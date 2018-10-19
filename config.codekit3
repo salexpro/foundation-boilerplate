@@ -8,14 +8,14 @@
 		},
 	{
 		"name": "Demo mode with Github Pages",
-		"scriptSourceString": "rm -rf docs/\ncp -rf build/ docs/\nrm docs/.gitignore\ncat docs/js/components/fastnav.min.js >> docs/js/app.min.js\nzip -r build.zip build/",
+		"scriptSourceString": "rm -rf docs/\ncp -rf build/ docs/\nrm -f build/CNAME\necho \"\\n\" >> docs/js/app.min.js\ncat docs/js/components/fastnav.min.js >> docs/js/app.min.js\nrm -f build.zip\nzip -r build.zip build/",
 		"scriptType": 1,
 		"scriptUUIDString": "26AE3F7B-AC2D-4F34-BF67-57F311D0110B",
 		"stepType": 2,
 		"uuidString": "F1EFA6C6-105C-418D-BECE-C2E49FE54D13"
 		}
 	],
-"creatorBuild": "28795",
+"creatorBuild": "28905",
 "files": {
 	"/.babelrc": {
 		"cB": 0,
@@ -93,16 +93,6 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"/node_modules/jquery/dist/jquery.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/node_modules/jquery/dist/jquery.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -137,6 +127,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/src/assets/favicon/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/build/assets/favicon/.gitkeep",
+		"oF": 0
+		},
 	"/src/assets/fonts/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
@@ -154,7 +151,7 @@
 	"/src/js/app.js": {
 		"ft": 64,
 		"ma": 1,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/build/js/app.min.js",
 		"oF": 0,
@@ -171,6 +168,15 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/src/pug/_layout.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "/build/_layout.html",
+		"oF": 1,
+		"oS": 0
+		},
 	"/src/pug/components/_icons.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -178,7 +184,7 @@
 		"oA": 1,
 		"oAP": "/build/_icons.html",
 		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/pug/components/_menu.pug": {
 		"cB": 1,
@@ -187,7 +193,7 @@
 		"oA": 1,
 		"oAP": "/build/_menu.html",
 		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/pug/components/_offcanvas.pug": {
 		"cB": 1,
@@ -196,7 +202,7 @@
 		"oA": 1,
 		"oAP": "/build/_offcanvas.html",
 		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/pug/components/_popup.pug": {
 		"cB": 1,
@@ -205,16 +211,7 @@
 		"oA": 1,
 		"oAP": "/build/_popup.html",
 		"oF": 0,
-		"oS": 1
-		},
-	"/src/pug/layout.pug": {
-		"cB": 1,
-		"cOD": 0,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "/build/layout.html",
-		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/pug/pages/index.pug": {
 		"cB": 1,
@@ -232,7 +229,7 @@
 		"oA": 1,
 		"oAP": "/build/_footer.html",
 		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/pug/sections/_head.pug": {
 		"cB": 1,
@@ -241,7 +238,7 @@
 		"oA": 1,
 		"oAP": "/build/_head.html",
 		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/pug/sections/_header.pug": {
 		"cB": 1,
@@ -250,7 +247,7 @@
 		"oA": 1,
 		"oAP": "/build/_header.html",
 		"oF": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"/src/scss/_settings.scss": {
 		"aP": 1,
@@ -1786,7 +1783,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -2292,7 +2289,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
 		"compileDebug": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunCacheBuster": 1
 		},
 	"languageDefaultsSASS": {
@@ -2346,7 +2343,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 1103269715935
+		"pluginMask": 1103269715967
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,

@@ -15,10 +15,9 @@ Just simple boilerplate based on Zurb Foundation
 yarn
 
 # Install the dependencies with npm
-
 npm install
 ```
 
 ## Run
-Just press "Build project" button in Codekit app.  
+Press "Build Project" button in Codekit app.  
 Also, this plate has the bash script that creates docs folder, copies to it built an app and add fastnav.js for simple navigation between pages.
