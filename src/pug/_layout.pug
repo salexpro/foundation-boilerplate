@@ -1,6 +1,6 @@
 block const
 -
-    const title  = `Project${name ? ' - ' + name : ''}`;
+    const title  = `${name ?  `${name} - ` : ''}Project`;
     const descr  = 'Description';
     const domain = 'subdomain.salex.pro'
 
@@ -14,7 +14,7 @@ mixin icon(name, size, color, viewbox)
 
 doctype html
 html(lang="ru")
-    include sections/_head
+    include components/_head
     body
         main.off-canvas-content.wrap(data-off-canvas-content)
             include sections/_header

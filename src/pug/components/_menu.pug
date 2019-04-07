@@ -1,3 +1,13 @@
 mixin menu(mod)
+    -
+        const menu = [
+            {
+                title: 'title',
+                link: '#link'
+            }
+        ]
     ul.menu(class=mod)
-        
+        each item in menu
+            li
+                a(href=item.link)
+                    =item.title

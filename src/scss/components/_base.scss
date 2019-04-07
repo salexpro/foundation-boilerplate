@@ -1,5 +1,5 @@
 html, body{
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 
 // Styled scrollbar
@@ -10,6 +10,9 @@ html, body{
 ::-webkit-scrollbar-thumb {
     background: $primary-color;
     border-radius: 5px;
+    &:hover{
+        background: darken($primary-color, 15);
+    }
 }
 
 // Drop autofill
@@ -22,32 +25,19 @@ html, body{
     -webkit-text-fill-color: $black;
 }
 
-
 .wrap {
     overflow: hidden;
     min-width: 320px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-height: 100vh;
 }
 
-[type='text'],
-[type='password'],
-[type='date'],
-[type='datetime'],
-[type='datetime-local'],
-[type='month'],
-[type='week'],
-[type='email'],
-[type='number'],
-[type='search'],
-[type='tel'],
-[type='time'],
-[type='url'],
-[type='color'],
-textarea,
-select,
-button {
-    outline: none;
+a{
+    transition: 200ms;
 }
 
-button {
-    cursor: pointer;
+.js-off-canvas-overlay{
+    -webkit-tap-highlight-color: transparent;
 }

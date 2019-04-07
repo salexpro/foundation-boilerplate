@@ -8,6 +8,10 @@
     "plugins": [
         "jquery"
     ],
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+    },
     "rules": {
         "no-debugger": 0,
         "no-console": 0,

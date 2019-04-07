@@ -15,18 +15,28 @@
 		"uuidString": "F1EFA6C6-105C-418D-BECE-C2E49FE54D13"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.babelrc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/.babelrc",
+		"oF": 1
+		},
+	"/.browserslistrc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/.browserslistrc",
 		"oF": 1
 		},
 	"/.eslintrc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/.eslintrc",
 		"oF": 1
@@ -34,6 +44,7 @@
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/.gitignore",
 		"oF": 1
@@ -47,6 +58,7 @@
 	"/build.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/build.zip",
 		"oF": 1
@@ -63,32 +75,13 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/foundation-sites/dist/js/plugins/foundation.core.min.js": {
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.core.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.box.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.box.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.min.js",
+		"oAP": "/build/node_modules/jquery/dist/jquery.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -117,6 +110,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/README.html",
 		"oF": 1,
@@ -130,6 +124,7 @@
 	"/src/assets/favicon/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/build/assets/favicon/.gitkeep",
 		"oF": 0
@@ -137,6 +132,7 @@
 	"/src/assets/fonts/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/build/assets/fonts/.gitkeep",
 		"oF": 0
@@ -144,26 +140,56 @@
 	"/src/assets/img/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/build/assets/img/.gitkeep",
 		"oF": 0
 		},
+	"/src/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/build/CNAME",
+		"oF": 0
+		},
+	"/src/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/build/favicon.ico",
+		"oF": 0
+		},
 	"/src/js/app.js": {
+		"bF": 4,
 		"ft": 64,
 		"ma": 1,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "/build/js/app.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"/src/js/components/fastnav.js": {
+	"/src/js/lib/fastnav.js": {
+		"bF": 0,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/components/fastnav.min.js",
+		"oAP": "/build/js/lib/fastnav.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/src/js/lib/foundation-explicit-pieces.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/js/lib/foundation-explicit-pieces.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -172,15 +198,27 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_layout.html",
 		"oF": 1,
+		"oS": 0
+		},
+	"/src/pug/components/_head.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_head.html",
+		"oF": 0,
 		"oS": 0
 		},
 	"/src/pug/components/_icons.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_icons.html",
 		"oF": 0,
@@ -190,6 +228,7 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_menu.html",
 		"oF": 0,
@@ -199,6 +238,7 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_offcanvas.html",
 		"oF": 0,
@@ -208,6 +248,7 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_popup.html",
 		"oF": 0,
@@ -217,6 +258,7 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/index.html",
 		"oF": 0,
@@ -226,17 +268,9 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_footer.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"/src/pug/sections/_head.pug": {
-		"cB": 1,
-		"cOD": 0,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "/build/_head.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -244,6 +278,7 @@
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_header.html",
 		"oF": 0,
@@ -375,7 +410,7 @@
 	"creationDate": 505831586,
 	"displayValue": "Wow project! Such boilerplate!",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-doge",
+	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 548730532
 	},
@@ -385,11 +420,11 @@
 	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 1,
-	"babel7PresetType": 1,
+	"babel7PresetType": 0,
 	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigType": 0,
+	"babelConfigType": 2,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
@@ -1516,6 +1551,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 1,
 			"optionString": ""
@@ -1781,7 +1820,7 @@
 			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
 			}
 		},
-	"esLintSourceType": 0,
+	"esLintSourceType": 1,
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
@@ -2178,6 +2217,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2199,6 +2239,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 1,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -2221,7 +2262,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2260,6 +2302,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2269,7 +2312,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2290,7 +2334,8 @@
 		"autoOutputPathStyle": 1,
 		"compileDebug": 0,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 1
+		"shouldRunCacheBuster": 1,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2319,7 +2364,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2407,16 +2453,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -2428,14 +2478,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2458,6 +2508,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -2483,10 +2537,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -2495,13 +2545,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -2513,6 +2563,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -2535,13 +2589,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -2550,10 +2604,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -2577,6 +2627,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -2611,6 +2665,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -2620,6 +2678,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2647,15 +2709,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": "/build"
 	},
