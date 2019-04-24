@@ -21,33 +21,33 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/.babelrc",
-		"oF": 1
+		"oF": 0
 		},
 	"/.browserslistrc": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/.browserslistrc",
-		"oF": 1
+		"oF": 0
 		},
 	"/.eslintrc": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/.eslintrc",
-		"oF": 1
+		"oF": 0
 		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/.gitignore",
-		"oF": 1
+		"oF": 0
 		},
 	"/build": {
 		"ft": 65536,
@@ -59,9 +59,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/build.zip",
-		"oF": 1
+		"oF": 0
 		},
 	"/docs": {
 		"ft": 65536,
@@ -71,34 +71,45 @@
 		},
 	"/node_modules": {
 		"ft": 65536,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
 	"/node_modules/jquery/dist/jquery.js": {
-		"bF": 0,
+		"bF": 4,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/build/node_modules/jquery/dist/jquery.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/node_modules/svg4everybody/dist/svg4everybody.js": {
+		"bF": 4,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/build/node_modules/jquery/dist/jquery.min.js",
+		"oAP": "/build/node_modules/svg4everybody/dist/svg4everybody.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
 	"/package-lock.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/package-lock.json",
-		"oF": 1,
+		"oF": 0,
 		"oO": 0,
 		"oS": 0
 		},
 	"/package.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/package.json",
-		"oF": 1,
+		"oF": 0,
 		"oO": 0,
 		"oS": 0
 		},
@@ -111,9 +122,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/README.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -145,6 +156,16 @@
 		"oAP": "/build/assets/img/.gitkeep",
 		"oF": 0
 		},
+	"/src/assets/img/icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/icons.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1107547906047,
+		"prP": 0
+		},
 	"/src/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -173,7 +194,7 @@
 		"tS": 1
 		},
 	"/src/js/lib/fastnav.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
@@ -184,11 +205,11 @@
 		"tS": 1
 		},
 	"/src/js/lib/foundation-explicit-pieces.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/js/lib/foundation-explicit-pieces.min.js",
 		"oF": 0,
 		"sC": 3,
@@ -201,7 +222,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_layout.html",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0
 		},
 	"/src/pug/components/_head.pug": {
@@ -306,7 +327,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/build/css/app.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
@@ -410,8 +431,8 @@
 	"creationDate": 505831586,
 	"displayValue": "Wow project! Such boilerplate!",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ariel",
-	"iconImageWasSetByUser": 0,
+	"iconImageName": "meme-doge",
+	"iconImageWasSetByUser": 1,
 	"lastBuiltDate": 548730532
 	},
 "projectSettings": {
@@ -2239,7 +2260,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"bundleFormat": 0,
+		"bundleFormat": 4,
 		"createSourceMap": 1,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
