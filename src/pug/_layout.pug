@@ -10,6 +10,7 @@ mixin icon(name, size, color, viewbox)
         use(fill=color, xlink:href='#' + name)
 
 //- Components
+include components/_icons
 //- include components/_menu
 
 doctype html
@@ -24,4 +25,3 @@ html(lang="ru")
         //- include components/_offcanvas
         block js
             script(src="./js/app.min.js")
-        //- include components/_icons

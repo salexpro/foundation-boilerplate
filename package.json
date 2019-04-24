@@ -18,7 +18,8 @@
   "homepage": "https://github.com/salexpro/foundation-boilerplate#readme",
   "dependencies": {
     "foundation-sites": "^6.5.3",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "svg4everybody": "^2.1.9"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
