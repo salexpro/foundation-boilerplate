@@ -17,18 +17,18 @@
   },
   "homepage": "https://github.com/salexpro/foundation-boilerplate#readme",
   "dependencies": {
-    "foundation-sites": "^6.5.3",
-    "jquery": "^3.3.1",
+    "foundation-sites": "^6.6.1",
+    "jquery": "^3.4.1",
     "svg4everybody": "^2.1.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-transform-regenerator": "^7.4.3",
-    "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "babel-eslint": "^10.0.1",
-    "browserslist": "^4.5.4",
-    "eslint": "^4.19.1",
-    "eslint-plugin-jquery": "^1.5.0"
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-regenerator": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-eslint": "^10.0.3",
+    "browserslist": "^4.8.6",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jquery": "^1.5.1"
   }
 }

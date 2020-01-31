@@ -7,47 +7,50 @@
 		"uuidString": "5C187A25-3F55-476F-B331-8ED5900B5F60"
 		},
 	{
-		"name": "Demo mode with Github Pages",
+		"name": "Github Pages demo & zip",
 		"scriptSourceString": "rm -rf docs/\ncp -rf build/ docs/\nrm -f build/CNAME\necho \"\\n\" >> docs/js/app.min.js\ncat docs/js/components/fastnav.min.js >> docs/js/app.min.js\nrm -f build.zip\nzip -r build.zip build/",
 		"scriptType": 1,
-		"scriptUUIDString": "26AE3F7B-AC2D-4F34-BF67-57F311D0110B",
+		"scriptUUIDString": "6366FA1E-B734-4D93-BE1B-0AE5E5857F91",
 		"stepType": 2,
-		"uuidString": "F1EFA6C6-105C-418D-BECE-C2E49FE54D13"
+		"uuidString": "6DF9D747-8413-4879-B214-3F05CAB77409"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31934",
 "files": {
-	"/.babelrc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/build/.babelrc",
-		"oF": 0
-		},
 	"/.browserslistrc": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/.browserslistrc",
-		"oF": 0
+		"oF": 1
 		},
 	"/.eslintrc": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/.eslintrc",
-		"oF": 0
+		"oF": 1
 		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/.gitignore",
-		"oF": 0
+		"oF": 1
+		},
+	"/babel.config.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/babel.config.min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 1
 		},
 	"/build": {
 		"ft": 65536,
@@ -59,9 +62,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/build.zip",
-		"oF": 0
+		"oF": 1
 		},
 	"/docs": {
 		"ft": 65536,
@@ -71,7 +74,7 @@
 		},
 	"/node_modules": {
 		"ft": 65536,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
@@ -80,8 +83,8 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 2,
-		"oAP": "/build/node_modules/jquery/dist/jquery.js",
+		"oA": 1,
+		"oAP": "/build/node_modules/jquery/dist/jquery.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -99,17 +102,17 @@
 		},
 	"/package-lock.json": {
 		"ft": 524288,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/package-lock.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 0
 		},
 	"/package.json": {
 		"ft": 524288,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/package.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 0
 		},
@@ -122,9 +125,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -148,22 +151,14 @@
 		"oAP": "/build/assets/fonts/.gitkeep",
 		"oF": 0
 		},
-	"/src/assets/img/.gitkeep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/build/assets/img/.gitkeep",
-		"oF": 0
-		},
 	"/src/assets/img/icons.svg": {
 		"ft": 2097152,
-		"miP": 0,
+		"miP": 1,
 		"oA": 0,
 		"oAP": "/build/assets/img/icons.svg",
 		"oF": 0,
 		"opt": 1,
-		"plM": 1107547906047,
+		"plM": 1103252938751,
 		"prP": 0
 		},
 	"/src/CNAME": {
@@ -172,14 +167,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/build/CNAME",
-		"oF": 0
-		},
-	"/src/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/build/favicon.ico",
 		"oF": 0
 		},
 	"/src/js/app.js": {
@@ -305,19 +292,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/scss/_settings.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/build/css/_settings.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"/src/scss/app.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -433,10 +407,11 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 548730532
+	"lastBuiltDate": 583538925.98218703
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
@@ -448,6 +423,7 @@
 	"babelConfigType": 2,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "'node_modules/**', 'bower_components/**', /\\/core-js\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -667,11 +643,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 1,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead, IE >= 9",
@@ -816,6 +791,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 2,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 8193,
@@ -917,6 +893,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1266,6 +1246,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -1676,6 +1660,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1687,6 +1675,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2250,7 +2242,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"outputFormat": 0,
+		"outputFormat": 2,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -2296,7 +2288,6 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -2429,8 +2420,16 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, docs, node_modules, build.zip",
 	"sourceFolderName": "src",
 	"susyVersion": 3,

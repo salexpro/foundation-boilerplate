@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 const pageWidget = pages => {
     const widgetWrap = $('<div class="widget_wrap"><ul class="widget_list"></ul><button class="widget_button"></button></div>');
     widgetWrap.prependTo('body');

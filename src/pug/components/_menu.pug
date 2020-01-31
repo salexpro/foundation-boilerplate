@@ -1,4 +1,4 @@
-mixin menu(mod)
+mixin menu()
     -
         const menu = [
             {
@@ -6,7 +6,7 @@ mixin menu(mod)
                 link: '#link'
             }
         ]
-    ul.menu(class=mod)
+    ul.menu&attributes(attributes)
         each item in menu
             li
                 a(href=item.link)

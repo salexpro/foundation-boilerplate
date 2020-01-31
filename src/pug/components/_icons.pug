@@ -1,4 +1,4 @@
 mixin icon(name, size, color, viewbox)
     - viewbox = viewbox || size
     svg(xmlns='http://www.w3.org/2000/svg' width=size[0] height=size[1] viewbox=viewbox ? "0 0 " + viewbox[0] + " " + viewbox[1] : "")
-        use(fill=color, xlink:href='./assets/img/icons.svg#' + name)
+        use(fill=color || 'currentColor', xlink:href='./assets/img/icons.svg#' + name)
