@@ -7,15 +7,15 @@
 		"uuidString": "5C187A25-3F55-476F-B331-8ED5900B5F60"
 		},
 	{
-		"name": "Github Pages demo & zip",
-		"scriptSourceString": "rm -rf docs/\ncp -rf build/ docs/\nrm -f build/CNAME\necho \"\\n\" >> docs/js/app.min.js\ncat docs/js/components/fastnav.min.js >> docs/js/app.min.js\nrm -f build.zip\nzip -r build.zip build/",
+		"name": "New \"Run Script\" Step",
+		"scriptSourceString": "rm -rf docs/\ncp -rf build/ docs/\necho \"\\n\" >> docs/js/app.min.js\ncat docs/js/lib/fastnav.min.js >> docs/js/app.min.js\nrm -f build.zip\nzip -r build.zip build/ -x 'build/robots.txt' 'build/CNAME' '*.map' '*/\\.*'",
 		"scriptType": 1,
 		"scriptUUIDString": "6366FA1E-B734-4D93-BE1B-0AE5E5857F91",
 		"stepType": 2,
 		"uuidString": "6DF9D747-8413-4879-B214-3F05CAB77409"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32001",
 "files": {
 	"/.browserslistrc": {
 		"cB": 0,
@@ -65,6 +65,14 @@
 		"oA": 1,
 		"oAP": "/build/build.zip",
 		"oF": 1
+		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/build/CNAME",
+		"oF": 0
 		},
 	"/docs": {
 		"ft": 65536,
@@ -135,21 +143,29 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/assets/favicon/.gitkeep": {
+	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/assets/favicon/.gitkeep",
+		"oAP": "/build/robots.txt",
 		"oF": 0
+		},
+	"/src/assets/favicon/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/assets/favicon/.gitkeep",
+		"oF": 1
 		},
 	"/src/assets/fonts/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/assets/fonts/.gitkeep",
-		"oF": 0
+		"oF": 1
 		},
 	"/src/assets/img/icons.svg": {
 		"ft": 2097152,
@@ -158,16 +174,8 @@
 		"oAP": "/build/assets/img/icons.svg",
 		"oF": 0,
 		"opt": 1,
-		"plM": 1103252938751,
-		"prP": 0
-		},
-	"/src/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/build/CNAME",
-		"oF": 0
+		"plM": 69982180343807,
+		"prP": 1
 		},
 	"/src/js/app.js": {
 		"bF": 4,
@@ -196,9 +204,9 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/js/lib/foundation-explicit-pieces.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -952,6 +960,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1128,6 +1140,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1153,6 +1169,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1456,6 +1476,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1659,6 +1683,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -2401,7 +2429,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 1103269715967
+		"pluginMask": 69982197121023
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,

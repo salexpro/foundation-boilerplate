@@ -35,9 +35,13 @@ html, body{
 }
 
 a{
-    transition: 200ms;
+    transition: color 200ms;
 }
 
 .js-off-canvas-overlay{
     -webkit-tap-highlight-color: transparent;
+}
+
+svg{
+    display: block;
 }
