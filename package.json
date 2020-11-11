@@ -1,34 +1,34 @@
 {
-  "name": "foundation-codekit-boilerplate",
-  "version": "1.0.0",
-  "description": "Quick start with Zurb Foundation in Codekit",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "foundation-sites": "^6.6.1",
+    "jquery": "^3.5.1",
+    "what-input": "^5.2.10"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salexpro/foundation-boilerplate.git"
   },
+  "homepage": "https://github.com/salexpro/foundation-boilerplate#readme",
+  "main": "app.js",
   "author": "salexpro",
-  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-pug": "^1.10.1",
+    "browserslist": "^4.14.7",
+    "eslint": "^7.13.0",
+    "eslint-plugin-jquery": "^1.5.1",
+    "gh-pages": "^3.1.0",
+    "prettier": "^2.1.2"
+  },
   "bugs": {
     "url": "https://github.com/salexpro/foundation-boilerplate/issues"
   },
-  "homepage": "https://github.com/salexpro/foundation-boilerplate#readme",
-  "dependencies": {
-    "foundation-sites": "^6.6.1",
-    "jquery": "^3.4.1",
-    "svg4everybody": "^2.1.9"
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build -b preview"
   },
-  "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/plugin-transform-regenerator": "^7.8.3",
-    "@babel/polyfill": "^7.8.3",
-    "@babel/preset-env": "^7.8.4",
-    "babel-eslint": "^10.0.3",
-    "browserslist": "^4.8.6",
-    "eslint": "^6.8.0",
-    "eslint-plugin-jquery": "^1.5.1"
-  }
+  "description": "Quick start with Zurb Foundation for CodeKit",
+  "license": "ISC",
+  "name": "foundation-codekit-boilerplate",
+  "version": "1.2.0"
 }

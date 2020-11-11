@@ -1,13 +1,13 @@
-mixin menu()
-    -
-        const menu = [
-            {
-                title: 'title',
-                link: '#link'
-            }
-        ]
-    ul.menu&attributes(attributes)
-        each item in menu
-            li
-                a(href=item.link)
-                    =item.title
+mixin menu
+  -
+    const menu = [
+      {
+        title: 'title',
+        link: '#link'
+      }
+    ]
+  ul.menu&attributes(attributes)
+    each item in menu
+      li
+        a(href=item.link)
+          = item.title

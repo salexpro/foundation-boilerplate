@@ -1,22 +1,22 @@
 block const
 -
-    const title  = `${name ?  `${name} - ` : ''}Project`;
-    const descr  = 'Description';
-    const domain = 'subdomain.salex.pro'
+  const title  = `${name ?  `${name} - ` : ''}Project`;
+  const descr  = 'Description';
+  const domain = 'subdomain.min.studio'
 
 //- Components
 include components/_icons
 //- include components/_menu
 
 doctype html
-html(lang="ru")
-    include components/_head
-    body
-        main.off-canvas-content.wrap(data-off-canvas-content)
-            include sections/_header
-            block content
-                include sections/_footer
-            //- include components/_popup
-        //- include components/_offcanvas
-        block js
-            script(src="./js/app.min.js")
+html(lang='en')
+  include components/_head
+  body
+    main.off-canvas-content.wrap(data-off-canvas-content)
+      include sections/_header
+      block content
+        include sections/_footer
+      //- include components/_popup
+    //- include components/_offcanvas
+    block js
+      script(src='./js/app.min.js')
