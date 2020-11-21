@@ -5,14 +5,6 @@
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "5C187A25-3F55-476F-B331-8ED5900B5F60"
-		},
-	{
-		"name": "Deploy",
-		"scriptSourceString": "rm -f build.zip\nzip -r build.zip build/ -x 'build/robots.txt' 'build/CNAME' '*.map' '*/\\.*'\n# npm run deploy",
-		"scriptType": 1,
-		"scriptUUIDString": "6366FA1E-B734-4D93-BE1B-0AE5E5857F91",
-		"stepType": 2,
-		"uuidString": "6DF9D747-8413-4879-B214-3F05CAB77409"
 		}
 	],
 "creatorBuild": "33081",
@@ -55,19 +47,22 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/build.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/build.zip",
-		"oF": 1
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/node_modules",
 		"oF": 0
+		},
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/jquery/dist/jquery.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
 		},
 	"/package-lock.json": {
 		"ft": 524288,
