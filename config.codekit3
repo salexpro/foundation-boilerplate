@@ -373,9 +373,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/build\/yarn.lock",
-      "oF" : 0
+      "oF" : 1
     }
   },
   "hooks" : [
@@ -390,7 +390,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-doge",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 666534804.19131696
+    "lastBuiltDate" : 666535104.91598201
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
