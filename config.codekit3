@@ -53,14 +53,6 @@
       "oAP" : "\/build\/node_modules",
       "oF" : 0
     },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/build\/package-lock.json",
-      "oF" : 1,
-      "oO" : 0,
-      "oS" : 0
-    },
     "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -376,6 +368,14 @@
       "oS" : 3,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/yarn.lock" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/yarn.lock",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -390,7 +390,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-doge",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 637093158.18301797
+    "lastBuiltDate" : 666534804.19131696
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
