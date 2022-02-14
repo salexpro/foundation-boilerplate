@@ -17,7 +17,7 @@
     "eslint": "7.32.0",
     "eslint-plugin-jquery": "1.5.1",
     "gh-pages": "3.2.3",
-    "prettier": "2.2.1"
+    "prettier": "2.5.1"
   },
   "bugs": {
     "url": "https://github.com/salexpro/foundation-boilerplate/issues"
