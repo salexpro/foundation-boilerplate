@@ -31,10 +31,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@prettier/plugin-pug@1.20.0":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.20.0.tgz#c54a5a396b9a307a23aa8a5da3c5a42b0cc76fd9"
-  integrity sha512-NT5gVO/SOVNKOPYyLttWSzryO3prVRrw5X8N7NFOTlkDwkOoRXSvGAsUa8OrPxOiV21/vkKTjUic2kbCYw6lig==
+"@prettier/plugin-pug@1.20.1":
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.20.1.tgz#b8fdd1c327fc6fbef3e1d2ae5544baa40e8c754e"
+  integrity sha512-pMAfomxIiPHKn01idtsnDJFEqTGMzMzJajo52lWw3urDasJyf5gwQKqyOp1gB1yIbC5K3OBvsFtSMrOTbxHo6w==
   dependencies:
     pug-lexer "^5.0.0"
 
