@@ -17,7 +17,7 @@
     "browserslist": "4.20.3",
     "eslint": "8.15.0",
     "eslint-plugin-jquery": "1.5.1",
-    "gh-pages": "3.2.3",
+    "gh-pages": "4.0.0",
     "prettier": "2.6.2"
   },
   "bugs": {
