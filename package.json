@@ -14,7 +14,7 @@
   "author": "salexpro",
   "devDependencies": {
     "@prettier/plugin-pug": "2.1.1",
-    "browserslist": "4.21.2",
+    "browserslist": "4.21.3",
     "eslint": "8.20.0",
     "eslint-plugin-jquery": "1.5.1",
     "gh-pages": "4.0.0",
