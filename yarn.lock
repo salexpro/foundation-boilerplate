@@ -74,12 +74,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@prettier/plugin-pug@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-2.4.1.tgz#5b072ad529b67b17856868d6f0414ca7c5524c51"
-  integrity sha512-TZqlSg1WunJs7n4sLf7JKoVxTTQP/oFFHXXvlgVrvf7M47rx7VmIOMFEBGHHhpCkEk5Ub8WnOsUOwb1IQanygQ==
+"@prettier/plugin-pug@2.5.2":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-2.5.2.tgz#ff60f328d258719b4713ec7a8dd1a027023856f9"
+  integrity sha512-p6r2yBpE8az+z6M5ts4XPnnoxqx4rZRRd2FlpJZaLrdNC7TDEHF0Bhln5wwKQHOTlYSDmNegMXxfSvYBihgMJQ==
   dependencies:
-    pug-lexer "^5.0.0"
+    pug-lexer "^5.0.1"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -865,7 +865,7 @@ pug-error@^2.0.0:
   resolved "https://registry.yarnpkg.com/pug-error/-/pug-error-2.0.0.tgz#5c62173cb09c34de2a2ce04f17b8adfec74d8ca5"
   integrity sha512-sjiUsi9M4RAGHktC1drQfCr5C5eriu24Lfbt4s+7SykztEOwVZtbFk1RRq0tzLxcMxMYTBR+zMQaG07J/btayQ==
 
-pug-lexer@^5.0.0:
+pug-lexer@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/pug-lexer/-/pug-lexer-5.0.1.tgz#ae44628c5bef9b190b665683b288ca9024b8b0d5"
   integrity sha512-0I6C62+keXlZPZkOJeVam9aBLVP2EnbeDw3An+k0/QlqdwH6rv8284nko14Na7c0TtqtogfWXcRoFE4O4Ff20w==
