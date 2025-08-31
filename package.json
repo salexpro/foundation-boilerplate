@@ -13,7 +13,7 @@
   "main": "app.js",
   "author": "salexpro",
   "devDependencies": {
-    "@prettier/plugin-pug": "2.4.1",
+    "@prettier/plugin-pug": "3.4.2",
     "browserslist": "4.21.5",
     "eslint": "8.36.0",
     "eslint-plugin-jquery": "1.5.1",
