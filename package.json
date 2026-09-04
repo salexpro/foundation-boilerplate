@@ -15,7 +15,7 @@
   "devDependencies": {
     "@prettier/plugin-pug": "2.5.2",
     "browserslist": "4.28.7",
-    "eslint": "8.36.0",
+    "eslint": "10.9.1",
     "eslint-plugin-jquery": "1.5.1",
     "gh-pages": "5.0.0",
     "prettier": "2.8.8"
