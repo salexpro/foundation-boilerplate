@@ -1001,10 +1001,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-what-input@^5.2.10:
-  version "5.2.12"
-  resolved "https://registry.yarnpkg.com/what-input/-/what-input-5.2.12.tgz#6eb5b5d39ebff4e2273df8bf69d8d2fc9a6e060a"
-  integrity sha512-3yrSa7nGSXGJS6wZeSkO6VNm95pB1mZ9i3wFzC1hhY7mn4/afue/MvXz04OXNdBC8bfo4AB4RRd3Dem9jXM58Q==
+what-input@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/what-input/-/what-input-6.0.1.tgz#f765945cad3ad337e0428b1ee08fef8052c2a416"
+  integrity sha512-9AE9mIMxsTSQB5EFMFz136Egi/FTL1yIMvS/wnNHWTfHBJMEH3E8lS/9q2Ppmg2VogUSd8bwwqJ337aa7wLMhw==
 
 which@^2.0.1:
   version "2.0.2"

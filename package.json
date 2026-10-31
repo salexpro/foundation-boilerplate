@@ -3,7 +3,7 @@
     "foundation-sites": "^6.6.1",
     "jquery": "^3.5.1",
     "motion-ui": "^2.0.3",
-    "what-input": "^5.2.10"
+    "what-input": "^6.0.0"
   },
   "repository": {
     "type": "git",
